@@ -54,5 +54,4 @@ def floyd_warshall(graph):
                 # Jika jarak melalui simpul k lebih pendek, perbarui jarak
                 dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])
 
-    
-
+    return dist
