@@ -1,6 +1,6 @@
 # Algoritma **Floyd-Warshall**
 
-Algoritma **Floyd-Warshall** adalah salah satu algoritma yang digunakan untuk menemukan **jalur terpendek** antara **semua pasangan simpul (vertices)** dalam suatu graf berarah berbobot (directed weighted graph). Algoritma ini bekerja untuk graf dengan **bobot positif dan negatif** (asalkan tidak ada siklus negatif), dan kompleksitas waktunya adalah **O(V³)**, di mana **V** adalah jumlah simpul dalam graf.
+Algoritma **Floyd-Warshall** adalah salah satu algoritma yang digunakan untuk menemukan **jalur terpendek** antara **semua pasangan simpul (vertices)** dalam suatu graf berarah berbobot (directed weighted graph). Algoritma ini bekerja untuk graf dengan **bobot positif dan negatif** (asalkan tidak ada siklus negatif), dan kompleksitas waktunya adalah **O(V³)**, dimana **V** adalah jumlah simpul dalam graf.
 
 Algoritma ini terkenal karena **kesederhanaannya** dalam mengimplementasikan pendekatan **dynamic programming** untuk menyelesaikan masalah **all-pairs shortest paths**.
 
